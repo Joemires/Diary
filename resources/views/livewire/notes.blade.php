@@ -13,21 +13,52 @@
     <div class="w-full md:w-5/6 space-y-4 pt-8 md:pl-6">
         <div class="form-group relative">
             <span class="text-lg pl-1 pr-2 bg-[#f3e5ab]">Today's Goal</span>
-            <textarea class="notes" style="text-indent: 150px" rows="5" wire:model.lazy="note.goal"></textarea>
+            <textarea class="notes" style="text-indent: 150px" rows="7" wire:model.lazy="note.goal"></textarea>
         </div>
 
         <div class="form-group relative">
             <span class="text-lg pl-1 pr-2 bg-[#f3e5ab]">Journal</span>
-            <textarea class="notes" style="text-indent: 100px" rows="12" wire:model.lazy="note.journal"></textarea>
+            <textarea class="notes" style="text-indent: 100px" rows="18" wire:model.lazy="note.journal"></textarea>
         </div>
     </div>
     <aside class="bg-[#f9f2d3] py-8" style="flex: 1">
-        <div class="section h-[200px]">
+        <div class="section space-y-3 mb-4">
             <h4 class="bg-[#f3e5ab] font-bold px-2 text-[20px] uppercase">Nutrition</h4>
-            <label class="flex items-center gap-3 px-2">
-                Aloe Water
-                <input id="link-checkbox" type="radio" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-            </label>
+            <div class="space-y-2 font-bold px-3">
+                <label class="flex items-center gap-3 justify-between">
+                    Aloe Water
+                    <input id="link-checkbox" type="radio" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                </label>
+
+                <label class="flex items-center gap-3 justify-between">
+                    Breakfast Or Snack
+                    <input id="link-checkbox" type="radio" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                </label>
+
+                <label class="flex items-center gap-3 justify-between">
+                    Lunch Or Snack
+                    <input id="link-checkbox" type="radio" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                </label>
+
+                <label class="flex items-center gap-3 justify-between">
+                    Dinner Or Snack
+                    <input id="link-checkbox" type="radio" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                </label>
+
+                <label class="flex items-center gap-3 justify-between">
+                    Tea
+                    <div>
+                        <input id="link-checkbox" type="radio" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <input id="link-checkbox" type="radio" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <input id="link-checkbox" type="radio" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    </div>
+                </label>
+
+                <label class="flex items-center gap-3 justify-between">
+                    Water
+                </label>
+
+            </div>
         </div>
 
         <div class="section space-y-3 mb-4">
